@@ -7,6 +7,16 @@
 createdb -U postgres sample_app_development
 ```
 
+```
+heroku config
+```
+
+```
+heroku run rails db:migrate
+heroku ps:restart
+heroku open
+```
+
 
 
 This README would normally document whatever steps are necessary to get the
